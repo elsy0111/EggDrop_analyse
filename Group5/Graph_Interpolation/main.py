@@ -33,8 +33,10 @@ plt.plot(x_new, dy_dx, '--', label='velocity', color='green')
 
 # Second derivative
 plt.plot(x_new, d2y_dx2, '-.', label='acceleration', color='purple')
-plt.ylim(-12.5,12.5)
-plt.xlim(0,2.5)
+
+# Set limits for x and y axes
+plt.ylim(-12.5, 12.5)
+plt.xlim(0, 2.5)
 
 # Labels and title
 plt.xlabel('')
@@ -44,4 +46,5 @@ plt.legend()
 plt.grid(True)
 
 # Show plot
-plt.show()
+# plt.show()
+plt.savefig('interpolation_plot.png', dpi=300, bbox_inches='tight')
