@@ -26,6 +26,8 @@
 │   ├── Failed_Protector                    // 失敗したプロテクター
 │   │   ├── Failed_Protector_Blender.png    // Blenderで作成したプロテクターのモデル
 │   │   └── Failed_Protector_Design.pdf     // 失敗したプロテクターの設計図
+│   ├── Submitted                           // 提出物
+│   │   └── 4I17SaitoKengo.mp4              // 提出物の動画
 │   └── Succeeded_Protector                 // 成功したプロテクター
 │       └── Succeeded_Protector_Design.png  // 成功したプロテクターの設計図
 └── README.md                               // このファイル
